@@ -1,4 +1,4 @@
-**Airbnb Market Analysis**
+## **Airbnb Market Analysis**
 Welcome to the Airbnb Market Analysis project! This repository contains a data analysis project that examines Airbnb listing data across 10 major cities, focusing on factors that influence pricing and market characteristics.
 
 **Project Overview**
