@@ -28,14 +28,16 @@ Categorical Encoding: Converting categorical variables (e.g., room type, city) t
 Cities like New York, Sydney, and Paris are high-cost markets, while cities like Istanbul and Mexico City offer more budget-friendly options.
 Entire homes tend to have the highest prices, whereas shared and private rooms offer cheaper alternatives across most cities.
 2. Attributes Influencing Price
-Using linear regression and Random Forest models, the analysis identified the top attributes influencing price:
+Using linear regression , the analysis identified the top attributes influencing price:
 
-City: The biggest price influencer, with cities like New York and Sydney commanding higher prices.
-Room Type: Entire homes are generally more expensive, while private and shared rooms are cheaper.
-Number of Bedrooms: More bedrooms significantly increase the listing price.
-Review Scores: Higher ratings slightly increase prices, though this effect is minimal compared to city and room type.
+- City: The biggest price influencer, with cities like New York and Sydney commanding higher prices.
+- Room Type: Entire homes are generally more expensive, while private and shared rooms are cheaper.
+- Number of Bedrooms: More bedrooms significantly increase the listing price.
+- Review Scores: Higher ratings slightly increase prices, though this effect is minimal compared to city and room type.
+  
 3. Trends and Seasonality
 Monthly analysis of review counts and scores reveals potential seasonal trends, such as higher review volumes in months on Oct, Nov and Dec. (in 2019)
+
 4. Best Value for Travelers
 A value score was created to balance price and ratings, showing that budget-friendly cities with high ratings, such as **Istanbul**, offer the best value.
 
