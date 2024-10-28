@@ -24,10 +24,10 @@ Currency Standardization: Converting prices to a standard currency (USD) for cro
 Categorical Encoding: Converting categorical variables (e.g., room type, city) to numerical format using one-hot encoding.
 
 **Key Analysis and Findings**
-1. Major Market Differences
+1. Major Market Differences:
 Cities like New York, Sydney, and Paris are high-cost markets, while cities like Istanbul and Mexico City offer more budget-friendly options.
 Entire homes tend to have the highest prices, whereas shared and private rooms offer cheaper alternatives across most cities.
-2. Attributes Influencing Price
+2. Attributes Influencing Price:
 Using linear regression , the analysis identified the top attributes influencing price:
 
 - City: The biggest price influencer, with cities like New York and Sydney commanding higher prices.
@@ -35,13 +35,13 @@ Using linear regression , the analysis identified the top attributes influencing
 - Number of Bedrooms: More bedrooms significantly increase the listing price.
 - Review Scores: Higher ratings slightly increase prices, though this effect is minimal compared to city and room type.
   
-3. Trends and Seasonality
+3. Trends and Seasonality:
 Monthly analysis of review counts and scores reveals potential seasonal trends, such as higher review volumes in months on Oct, Nov and Dec. (in 2019)
 
-4. Best Value for Travelers
+4. Best Value for Travelers:
 A value score was created to balance price and ratings, showing that budget-friendly cities with high ratings, such as **Istanbul**, offer the best value.
 
 **Future Enhancements**
-Extend Analysis: Incorporate additional cities and compare across different regions.
-Dynamic Currency Rates: Use dynamic exchange rates to adjust for real-time market fluctuations.
-Advanced Models: Apply advanced machine learning models for more nuanced insights on price prediction.
+- Extend Analysis: Incorporate additional cities and compare across different regions.
+- Dynamic Currency Rates: Use dynamic exchange rates to adjust for real-time market fluctuations.
+- Advanced Models: Apply advanced machine learning models for more nuanced insights on price prediction.
